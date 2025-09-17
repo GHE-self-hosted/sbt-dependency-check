@@ -20,7 +20,7 @@ lazy val util = (project in file("util"))
   .settings(commonSettings: _*)
   .settings(
     libraryDependencies ++= Seq("commons-beanutils" % "commons-beanutils" % "1.9.1" % "test",
-    "org.springframework.security" % "spring-security-web" % "5.1.4.RELEASE" % "test")
+    "org.springframework.security" % "spring-security-web" % "6.5.5" % "test")
   )
 
 lazy val core = project.dependsOn(util)
