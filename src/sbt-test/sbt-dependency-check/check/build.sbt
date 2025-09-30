@@ -1,6 +1,6 @@
 version := "0.1"
 lazy val root = project in file(".")
-scalaVersion := "2.10.7"
+scalaVersion := "2.13.17"
 
 libraryDependencies ++= Seq(
   "commons-beanutils" % "commons-beanutils" % "1.9.1" % "test",
