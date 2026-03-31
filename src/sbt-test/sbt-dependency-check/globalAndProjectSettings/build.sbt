@@ -2,7 +2,7 @@
 
 name := "global-and-project-settings"
 version := "0.1"
-scalaVersion := "2.11.12"
+scalaVersion := "3.8.3"
 
 Global / dependencyCheckCvePassword := Some("Global")
 Global / dependencyCheckCveUser := Some("Global")
